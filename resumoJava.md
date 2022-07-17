@@ -23,3 +23,15 @@ boolean minhaVariavelBoolean = true; // valores booleanos - true/false
 - dividir (/)
 - multiplicar (*)
 - resto da divisão (%)
+
+## Operadores relacionais e lógicos
+~~~~ java
+- == (igual a)
+- != (diferente)
+- > (maior que)
+- < (menor que)
+- >= (maior ou igual)
+- < (menor ou igual)
+- && (e)
+- || (ou)
+~~~~
