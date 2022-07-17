@@ -25,8 +25,8 @@ boolean minhaVariavelBoolean = true; // valores booleanos - true/false
 - resto da divisão (%)
 
 ## Operadores relacionais e lógicos
-// ~~~~ java 
-- == (igual a)c 
+~~~~ java 
+- == (igual a) 
 - != (diferente)
 - > (maior que)
 - < (menor que)
@@ -34,4 +34,28 @@ boolean minhaVariavelBoolean = true; // valores booleanos - true/false
 - < (menor ou igual)
 - && (e)
 - || (ou)
-// ~~~~
+~~~~
+## Estruturas condicionais
+
+if (condicao){
+    executa caso a condicao seja verdadeira
+} else {
+    executa caso a condicao seja falsa}
+
+~~~~ java 
+int idade = 18;
+
+if (idade >= 18 && idade <=60){
+    System.out.println("adulto");
+
+} else if (idade > 60){
+    System.out.println("idoso");
+
+} else if (idade > 12 && idade < 18){
+    System.out.println("adolescente");
+    
+} else {
+    System.out.println("criança");
+}
+
+~~~~
