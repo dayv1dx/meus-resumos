@@ -25,8 +25,8 @@ boolean minhaVariavelBoolean = true; // valores booleanos - true/false
 - resto da divisão (%)
 
 ## Operadores relacionais e lógicos
-~~~~ java
-- == (igual a)
+// ~~~~ java 
+- == (igual a)c 
 - != (diferente)
 - > (maior que)
 - < (menor que)
@@ -34,4 +34,4 @@ boolean minhaVariavelBoolean = true; // valores booleanos - true/false
 - < (menor ou igual)
 - && (e)
 - || (ou)
-~~~~
+// ~~~~
