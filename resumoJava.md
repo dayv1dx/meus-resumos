@@ -38,9 +38,13 @@ boolean minhaVariavelBoolean = true; // valores booleanos - true/false
 ## Estruturas condicionais
 
 if (condicao){
-    executa caso a condicao seja verdadeira
+
+    executa caso a condicao seja verdadeira;
+
 } else {
-    executa caso a condicao seja falsa}
+
+    executa caso a condicao seja falsa;
+    }
 
 ~~~~ java 
 int idade = 18;
@@ -53,7 +57,7 @@ if (idade >= 18 && idade <=60){
 
 } else if (idade > 12 && idade < 18){
     System.out.println("adolescente");
-    
+
 } else {
     System.out.println("criança");
 }
