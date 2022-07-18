@@ -102,11 +102,11 @@ switch ( nota ){
 String [] nomeArray = {"jose", "dayvid", "cunha"}; // usar colchetes [] para definir, chaves {} para agrupar e separar por vírgula
     System.out.println( nomeArray [1]); // os itens do array são acessados por indices {0,1,2}
 
-int [] numerosPrimos = {2,3,5,7,11}; // array de numeros
+int [] numerosPrimos = {2,3,5,7,11}; // array de números
     System.out.println( numerosPrimos.length ); // exibe o tamanho do array
 ~~~~
 ## Loops
-
+while, do while e for
 ~~~~ java
 /* while (condicao) {
     executa enquanto a condição é verdadeira
@@ -121,7 +121,7 @@ while ( numero < 5){
 
 do { // ação a ser executado antes do while
 
-} while ( condicao );
+} while ( condicao ); // primeiro executa e depois testa a condição
 
 for ( int n = 1; n <5; n++){ // a vantagem é colocar a variável de controle dentro da estrutura
     System.out.println (n);}
