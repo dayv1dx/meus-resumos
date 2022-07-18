@@ -43,6 +43,7 @@ boolean minhaVariavelBoolean = true; // valores booleanos - true/false
 - || (ou)
 ~~~~
 ## Estruturas condicionais
+if else
 ~~~~ java
 /* if (condicao){
     executa caso a condicao seja verdadeira;
@@ -66,15 +67,61 @@ if (idade >= 18 && idade <=60){
     System.out.println("crianca");
 }
 ~~~~
+switch
+~~~~ java 
+ /* switch (valor){
+    case valorTestado;
+        caso valor testado;
+        break;
+} */
+int nota = 8
+switch ( nota ){
+    case 10: 
+    case 9:    
+    System.out.println("ótimo!");
+    break;
+
+    case 8: 
+    System.out.println("bom!");
+    break;
+
+    case 7: 
+    System.out.println("regular!");
+    break;
+
+    default: 
+    System.out.println("ruim"); // a situação "padrão" é usada sem o break
+}
+~~~~
 
 ## Array
 
  Uma estrutura de dados que armazena uma coleção de elementos (como se fosse uma lista) de tal forma que cada um dos elementos pode ser identificado por, pelo menos, um índice ou uma chave.
 
 ~~~~ java
-String [] nomeArray = {"jose", "dayvid", "cunha"}; // usar colchetes [] para definir, chaves {} para agrupar e separar por virgula
+String [] nomeArray = {"jose", "dayvid", "cunha"}; // usar colchetes [] para definir, chaves {} para agrupar e separar por vírgula
     System.out.println( nomeArray [1]); // os itens do array são acessados por indices {0,1,2}
 
 int [] numerosPrimos = {2,3,5,7,11}; // array de numeros
+    System.out.println( numerosPrimos.length ); // exibe o tamanho do array
 ~~~~
+## Loops
 
+~~~~ java
+/* while (condicao) {
+    executa enquanto a condição é verdadeira
+    }
+*/
+int numero = 0;
+
+while ( numero < 5){
+    System.out.println ("executou " + numero);
+    numero = numero++; // maneira mais simples de incrementar um número
+}
+
+do { // ação a ser executado antes do while
+
+} while ( condicao );
+
+for ( int n = 1; n <5; n++){ // a vantagem é colocar a variável de controle dentro da estrutura
+    System.out.println (n);}
