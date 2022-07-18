@@ -23,7 +23,7 @@ double e = 2,718798482; // números decimais com precisao de 15 casas
 boolean minhaVariavelBoolean = true; // valores booleanos - true/false
 ~~~
 
-## Operados aritiméticos 
+## Operadores aritiméticos 
 
 - somar (+)
 - subtrair (-)
@@ -69,9 +69,12 @@ if (idade >= 18 && idade <=60){
 
 ## Array
 
+ Uma estrutura de dados que armazena uma coleção de elementos (como se fosse uma lista) de tal forma que cada um dos elementos pode ser identificado por, pelo menos, um índice ou uma chave.
+
 ~~~~ java
-String [] nomeArray = {"jose", "dayvid", "cunha"}; // usar colchetes [] para definir, chaves {} para agrupar e separa por virgula
-System.out.println( nomeArray [1]); // os itens do array são acessados por indices {0,1,2}
+String [] nomeArray = {"jose", "dayvid", "cunha"}; // usar colchetes [] para definir, chaves {} para agrupar e separar por virgula
+    System.out.println( nomeArray [1]); // os itens do array são acessados por indices {0,1,2}
+
 int [] numerosPrimos = {2,3,5,7,11}; // array de numeros
 ~~~~
 
