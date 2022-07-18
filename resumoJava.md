@@ -23,7 +23,7 @@ double e = 2,718798482; // números decimais com precisao de 15 casas
 boolean minhaVariavelBoolean = true; // valores booleanos - true/false
 ~~~
 
-## Operadores aritiméticos 
+## Operadores aritiméticos
 
 - somar (+)
 - subtrair (-)
@@ -32,7 +32,8 @@ boolean minhaVariavelBoolean = true; // valores booleanos - true/false
 - resto da divisão (%)
 
 ## Operadores relacionais e lógicos
-~~~~ java 
+
+~~~~ java
 - == (igual a) 
 - != (diferente)
 - > (maior que)
@@ -42,8 +43,11 @@ boolean minhaVariavelBoolean = true; // valores booleanos - true/false
 - && (e)
 - || (ou)
 ~~~~
+
 ## Estruturas condicionais
+
 if else
+
 ~~~~ java
 /* if (condicao){
     executa caso a condicao seja verdadeira;
@@ -67,8 +71,10 @@ if (idade >= 18 && idade <=60){
     System.out.println("crianca");
 }
 ~~~~
+
 switch
-~~~~ java 
+
+~~~~ java
  /* switch (valor){
     case valorTestado;
         caso valor testado;
@@ -105,8 +111,11 @@ String [] nomeArray = {"jose", "dayvid", "cunha"}; // usar colchetes [] para def
 int [] numerosPrimos = {2,3,5,7,11}; // array de números
     System.out.println( numerosPrimos.length ); // exibe o tamanho do array
 ~~~~
+
 ## Loops
+
 while, do while e for
+
 ~~~~ java
 /* while (condicao) {
     executa enquanto a condição é verdadeira
