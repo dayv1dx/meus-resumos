@@ -42,6 +42,8 @@ boolean minhaVariavelBoolean = true; // valores booleanos - true/false
 - < (menor ou igual)
 - && (e)
 - || (ou)
+- ^ (ou-exclusivo)
+- ! (negação/not)
 ~~~~
 
 ## Estruturas condicionais
