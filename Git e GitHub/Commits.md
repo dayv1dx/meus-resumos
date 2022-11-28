@@ -62,9 +62,17 @@ A estrutura se dá da seguinte forma:
 Ao utilizar o comando `git commit` é aberto o editor padrão do Git, o **VIM**, e nele é feita toda a estrutura do commit. Segue um exemplo:
 
 ~~~ bash
- 
+Assunto commit
+# quebrar linha para separar o assunto e corpo
+Corpo commit, esse commit modifica o README.md adicionando uma nova descrição
+# quebrar mais uma linha
+Rodapé
 ~~~
-## Escrevendo de forma imperativa:
+
+No rodapé é possível usar a palavra reservada `Closes #N` onde esse **`N`** faz referência a uma _Issue_ do repositório que, após esse commit, será fechada.
+
+Para sair do **VIM** basta apertar `Esc` para sair do modo de edição e depois digitar " :wq", em seguida fazer o `git push`
+## **Escrevendo de forma imperativa:**
 
 Se aceito, esse commit `adiciona` método de pagamento
 
