@@ -59,7 +59,7 @@ funcionario.salario = "1000"
 
 funcionario.recuperarSalario();
 double salarioRecuperado = funcionario.recuperarSalario( bonus:150 );
-System.ou.print.ln("O salário é: " + salarioRecuperado);
+System.out.println("O salário é: " + salarioRecuperado);
 ~~~
 
 # Herança
