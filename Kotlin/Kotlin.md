@@ -1,5 +1,7 @@
 # Sobre a linguagem
 
+Documentação oficial: <https://kotlinlang.org/>
+
 - **Criada pela Jetbrains**
     - A Jet criou as IDE's: IntelliJ e PhpStorm
     - De ínico, a linguagem foi construída para ser usada internamente (criada por volta de 2010/2011)

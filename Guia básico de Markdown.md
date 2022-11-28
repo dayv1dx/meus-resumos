@@ -143,3 +143,56 @@ Como aparece:
 Alinhado a esquerda | Centralizado | Alinhado a direita
 :--------- | :------: | -------:
 Valor | Valor | Valor
+
+### Cores no texto, marcações e outros
+
+Usando a sintaxe do bloco de código diff para gerar texto colorido. Ainda existem algumas limitações como não conseguir estilizar o texto dentro da caixa diff e poucas cores para a formatação. Isso pode ser aplicável quando você deseja destacar alguma nota ou mostrar a diferença entre dois blocos de código.
+
+```diff
+- texto em vermelho
++ texto em verde
+! texto em laranja
+# texto em cinza
+@@ texto em roxo (e negrito)@@
+```
+
+* Para adicionar marcações de "Nota" e de "Aviso" deve-se usar a sintaxe abaixo:
+~~~
+>
+> **Note**:
+> 
+> **Warning**:
+~~~
+
+Como aparece:
+>
+> **Note**:
+> 
+> **Warning**:
+
+Em arquivo markdown no Github, com sintaxe de bloco de código e linguagem Mermaid, podemos desenhar vários tipos de diagrama. Mais sintaxe e diagramas de exemplo [aqui](https://mermaid-js.github.io/)
+
+  - Diagrama de classe
+   ```mermaid
+   classDiagram
+       class Pato{
+        -peso
+         +nada()
+         +quack()
+       }
+   ```
+  - Diagrama de sequência
+   ```mermaid
+   sequenceDiagram
+       participant dotcom
+       participant iframe
+       dotcom->>iframe: carrega html com url do iframe
+   ```
+  - Fluxograma
+   ```mermaid
+     graph TD;
+         A-->B;
+         A-->C;
+         B-->D;
+         C-->D;
+   ```
