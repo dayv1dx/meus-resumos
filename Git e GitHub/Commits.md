@@ -42,9 +42,32 @@ git reset --mixed
 
 3. Já a `--hard`, diferente das anteriores, vai limpar tudo. Esse tag exclui todos os arquivos daquele commit.
 
-
-
-
-
 # Estruturando commits
 
+A estrutura se dá da seguinte forma:
+
+- **Assunto**
+  - Curto e compreensível com até 50 caracteres
+  - Começar com letra maiúscula e não terminar em ponto "."
+  - Escrito de forma imperativa
+- **Corpo**
+  - Adicione detalhes ao commit
+  - Identifique sua audiência
+  - Explique tudo
+  - Use Markdown
+- **Rodapé**
+  - Referencie assuntos relacionados
+  - É opcional
+
+Ao utilizar o comando `git commit` é aberto o editor padrão do Git, o **VIM**, e nele é feita toda a estrutura do commit. Segue um exemplo:
+
+~~~ bash
+ 
+~~~
+## Escrevendo de forma imperativa:
+
+Se aceito, esse commit `adiciona` método de pagamento
+
+Se aceito, esse commit `atualiza` configurações do banco de dados
+
+Se aceito, esse commit `remove` código redundante
