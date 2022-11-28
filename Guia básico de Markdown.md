@@ -85,13 +85,10 @@ Códigos de <strong>negrito</strong>, <em>itálico</em> e <a href="https://links
 <li><strong>Código em linha</strong> (<em>inline</em>): adicione um acento grave <code>ˋ</code> no início e no final do código.</li>
 <li><strong>Múltiplas linhas de código</strong>: envolva as linhas de código com três acentos graves <code>ˋˋˋ</code> ou três tils <code>~~~</code>.</li>
 </ul>
-<pre class="highlight markdown"><code> Esta é uma linha que contém um ˋcódigoˋ.
 
-ˋˋˋ
-Esta é uma linha de código
- ˋˋˋ</code></pre>
-<p>Para especificar que tipo de linguagem está sendo apresentada no bloco de códigos adicionando o nome da linguagem de programação após o <code>ˋˋˋ</code> ou <code>~~~</code>, por exemplo <code>~~~javascript</code> ou <code>~~~ruby</code>. Veja nos exemplos abaixo:</p>
-<pre class="highlight markdown"><code>
+Para especificar que tipo de linguagem está sendo apresentada no bloco de códigos adicionando o nome da linguagem de programação após o `ˋˋˋ` ou `~~~`, por exemplo `~~~javascript` ou `~~~ruby`. Veja nos exemplos abaixo:
+
+```
 
 ~~~javascript
 Esta é uma linha de código em Javascript.
@@ -104,3 +101,45 @@ Esta é uma linha de código em PHP.
 ~~~html
 Esta é uma linha de código em HTML.
 ~~~
+  
+```
+
+### Tabela
+
+Escolha os títulos das colunas e use `|` para delimitar as colunas. Depois, utilize hífen `-` na segunda linha para indicar que acima estão os títulos das colunas, usando novamente o `|` para delimitar colunas. Veja um exemplo abaixo:
+
+```
+Exemplo   | Valor do exemplo
+--------- | ------
+Exemplo 1 | R$ 10
+Exemplo 2 | R$ 8
+Exemplo 3 | R$ 7
+Exemplo 4 | R$ 8
+```
+Como aparece:
+
+Exemplo   | Valor do exemplo
+--------- | ------
+Exemplo 1 | R$ 10
+Exemplo 2 | R$ 8
+Exemplo 3 | R$ 7
+Exemplo 4 | R$ 8
+
+Para especificar o tipo de alinhamento que deseja ter nas tabelas, utilize `:` ao lado do campo horizontal de hífens `---`, na segunda linha da sua tabela. Veja abaixo:
+
+- **Alinhado a esquerda:** usar `:` no lado esquerdo (alinhamento padrão);
+- **Alinhado a direita:** usar `:` no lado direito;
+- **Centralizado:** usar `:` dos dois lados.
+
+Veja no exemplo:
+```
+Alinhado a esquerda | Centralizado | Alinhado a direita
+:--------- | :------: | -------:
+Valor | Valor | Valor
+```
+
+Como aparece:
+
+Alinhado a esquerda | Centralizado | Alinhado a direita
+:--------- | :------: | -------:
+Valor | Valor | Valor
