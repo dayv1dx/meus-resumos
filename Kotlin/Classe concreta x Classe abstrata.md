@@ -2,6 +2,8 @@
 
 Classe abstratas não podem ser instanciadas, pois têm métodos muito genéricos. Nesse tipo de classe não é necessário utilizar a palavra `open`, pois ela já é feita para ser herdada.
 
+Métodos também podem ser abstratos e nesse caso a classe filha é obrigada a implementá-lo, entretanto o mesmo não possui um "corpo", linha 19.
+
 ~~~ kotlin
  
 abstract class Animal{ // classe abstrata
@@ -13,6 +15,8 @@ abstract class Animal{ // classe abstrata
     fun correr(){
         println("Correr")
     }
+
+    abstract fun exemplo()
 }
 
 class Cao : Animal(){ // classe concreta
