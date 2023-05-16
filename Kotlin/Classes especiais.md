@@ -34,6 +34,21 @@ fun main() {
 }
 ~~~~
 
+Desestruturação
+
+~~~ kotlin
+
+val usuario1 = Usuario("nome", 22)
+val usuario2 = Usuario("nome", 22)
+
+val ("nome", 34) = usuario1 // destrutucturing sintaxe
+
+// isso é o mesmo que fazer:
+val nome = usuario1.nome
+val idade = usuario1.idade
+
+~~~
+
 ## Enum Classes
 
 São utilizadas ​​para modelar tipos que representam um conjunto finito de valores distintos, como direções, estados, modos e assim por diante.
