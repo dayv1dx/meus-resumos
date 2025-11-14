@@ -188,7 +188,7 @@ Todos os objetos nascem com o memso número de atributos de classe e instância.
 class Estudante:
     escola = "Poli" # atributo de classe
 
-    def __init__(self, nome, matricula): # atributps de instância
+    def __init__(self, nome, matricula): # atributos de instância
         self.nome = nome
         self.matricula = matricula
 
@@ -209,3 +209,4 @@ Estudante.escola = "Python"
 aluno_3 = Estudante("Chappie", 3)
 mostrar_valores(aluno_1, aluno_2, aluno_3)
 ~~~
+
