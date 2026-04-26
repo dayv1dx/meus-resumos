@@ -1,5 +1,13 @@
 # Primeiros passos
 
+## Adicionando nome e e-mail
+
+O Git exige a adição de um nome de usuário e um e-mail para gerar o histórico de autoria.
+
+Dentro do `Git Bash` basta rodar os comandos:
+- git config --global user.name "user.name"
+- git config --global user.email "user.name@gmail.com"
+
 ## Criando um novo projeto:
 
 - Criar uma nova pasta no PC onde será criado o repositório.
