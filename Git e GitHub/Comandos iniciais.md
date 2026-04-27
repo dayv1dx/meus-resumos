@@ -8,6 +8,10 @@ Dentro do `Git Bash` basta rodar os comandos:
 - git config --global user.name "user.name"
 - git config --global user.email "user.name@gmail.com"
 
+Para visualizar as configurações feitas bastar utilizar o comando:
+
+- git config --global --list
+
 ## Criando um novo projeto:
 
 - Criar uma nova pasta no PC onde será criado o repositório.
