@@ -4,19 +4,17 @@
 
 O Git exige a adição de um nome de usuário e um e-mail para gerar o histórico de autoria.
 
-Dentro do `Git Bash` basta rodar os comandos:
-- git config --global user.name "user.name"
-- git config --global user.email "user.name@gmail.com"
+Dentro do **Git Bash** basta rodar os comandos:
+- `git config --global user.name "user.name"`
+- `git config --global user.email "user.name@gmail.com"`
 
-Para visualizar as configurações feitas bastar utilizar o comando:
-
-- git config --global --list
+Para visualizar as configurações feitas bastar utilizar o comando: `git config --global --list`
 
 ## Criando um novo projeto:
 
 - Criar uma nova pasta no PC onde será criado o repositório.
 
-- Abrir o `Git Bash` nessa pasta.
+- Abrir o **Git Bash** nessa pasta.
 
 - Com o Bash aberto, utilizar o comando `git init` para inicializar o repositório.
 
@@ -32,7 +30,7 @@ Depois de ter criado o reporitório local, é necessário fazer a conexão com o
 
 Como baixar um código?
 
-Ao entrar em um repositório, seja o seu ou o de qualquer outra pessoa, terá um botão `Code`, que quando você clica aparece um link.
+Ao entrar em um repositório, seja o seu ou o de qualquer outra pessoa, terá um botão **Code**, que quando você clica aparece um link.
 
 Você irá copiar esse link e levar ele lá pro nosso terminal
 
