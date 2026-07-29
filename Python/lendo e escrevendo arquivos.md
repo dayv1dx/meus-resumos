@@ -139,3 +139,43 @@ pasta_descompactada = pasta_atual / 'descompactada'
 
 shutil.make_archive(nome_arquivo, pasta_descompactada, 'zip')
 ~~~
+
+## Arquivos de texto
+
+~~~ py
+from pathlib import Path
+import shutil
+import os
+
+# maneira não recomendada
+pasta_atual = Path(__file__).parent
+lista = open(pasta_atual/'lista_de_compras.txt')
+print(lista.read())
+
+lista.close()
+
+# lendo arquivos de forma recomendada
+with open(pasta_atual/'lista_de_compras.txt', mode='r') as lista:
+    print(lista.read())
+
+# lendo linha a linha
+with open(pasta_atual/'lista_de_compras.txt', mode='r') as lista:
+    linha = lista.readline()
+    while linha != ''
+        print(linha)
+        linha = lista.readline()
+
+# lendo todas as linhas
+with open(pasta_atual/'lista_de_compras.txt', mode='r') as lista:
+    print(lista.readlines()) # retorna uma lista
+
+# escrevendo arquivo
+
+itens_ja_comprados = ['farinha', 'fermento', 'agua']
+
+with open(pasta_atual/'lista_de_compras_atualizada.txt', mode='w') as lista_atualizada:
+    for item in itens_lista:
+        if not item.replace('\\n','') in itens_ja_comprados:
+            lista_atualizada.write(item)
+    
+~~~ 
